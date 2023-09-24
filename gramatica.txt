@@ -1,0 +1,11 @@
+S -> 0A0 | 1B1 | BB
+A -> C
+B -> S | A
+C -> S | 𝜀
+
+S -> aAa | bBb | 𝜀
+A -> C | a
+B -> C | b
+C -> CDE | 𝜀
+D -> A | B | ab
+
